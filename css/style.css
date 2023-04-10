@@ -72,6 +72,36 @@ body{
     font-size: small;
 }
 
-#service {
-    pad: ;
+#services {
+    padding: 100px 0;
+    margin-top: 200px;
+    background-color: #f1f1f1;
+
+}
+#services h2{
+    font-size: 300;
+    text-align: center;
+
+}
+
+#services ul{
+    list-style: none;
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#services li{
+    font-size: medium;
+    width: 150px;
+    margin: 20px;
+    padding: 30px;
+    text-align: center;
+    background-color: white;
+}
+
+#services li:hover{
+    background-color: orangered;
+    
 }
