@@ -1,0 +1,77 @@
+body{
+    margin: 0;
+}
+#mywebsite{
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#landing{
+    padding: 200px;
+    text-align: center;
+    background-image: url(../img/landing-img.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+#landing h1{
+    font-size: large;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
+
+#landing p{
+    font-size: small;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+
+
+}
+#blog {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 100px;
+}
+
+#blog div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-basis: calc(20% - 15px);
+    background-color: whitesmoke;
+    box-sizing: border-box;
+    width: calc(40% - 20px);
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px gray;
+    border: none;
+    position: relative;
+    overflow: hidden;
+}
+
+#blog div:nth-of-type(3){
+    background-color: black;
+    color: white;
+}
+
+#blog div img{
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+    object-position: center;
+}
+
+#blog div a {
+    text-align: left;
+    color: lightgray;
+    padding: 5px 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    background-color: transparent;
+    font-size: small;
+}
+
+#service {
+    pad: ;
+}
